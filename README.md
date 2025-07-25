@@ -1,2 +1,2 @@
-# Alianza_Website
-Website for Alianza Dance Company based out of Sacramento, CA
+# Social_67_Website
+Website for Social 67 based out of Sacramento, CA
