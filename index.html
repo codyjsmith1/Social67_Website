@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social 67</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">Social 67</a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home">
+      <div class="hero-video">
+        <video autoplay muted loop id="bg-video">
+          <source src="assets/0729.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="overlay">
+        <h1><img src="assets/Social67_white.png" alt="Social 67 Logo" /></h1>
+        <p>The Capital’s #1 Spot for Salsa & Bachata</p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/1234567890" class="btn">Join WhatsApp</a>
+          <a href="https://waiverfile.com/b/Social67Waiver" class="btn">
+            Sign One-Time Waiver
+          </a>
+          <a href="https://mailchi.mp/example/signup" class="btn">
+            Join Our Newsletter
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Social 67</h2>
+          <p>
+            Social 67 was created by a group of veterans at VFW Post 67 with one
+            goal in mind: to bring new life to the Post by uniting people
+            through Latin music, dance, and community. What started as a simple
+            idea has grown into Sacramento’s favorite midweek spot—where salsa,
+            bachata, and good energy bring people together every Wednesday
+            night. But this is more than just a dance event. Every time you show
+            up, you’re helping breathe new life into a historic veterans
+            hall—supporting the mission to make Post 67 a thriving community
+            space once again. By dancing here, you’re not only enjoying the
+            music—you’re helping build something meaningful.
+          </p>
+        </div>
+        <div class="about-media">
+          <!-- Choose either a photo carousel or FB feed -->
+          <!-- <div class="carousel">YOUR CAROUSEL CODE HERE</div> -->
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsocialsix7&tabs=timeline&width=340&height=400"
+            width="100%"
+            height="400"
+            style="border: none; overflow: hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT SECTION -->
+    <section id="events" class="info">
+      <h2>Upcoming Events</h2>
+      <div class="event-content">
+        <img
+          src="assets/flyer-wednesday.png"
+          alt="Wednesday Flyer"
+          class="event-flyer"
+        />
+        <div class="event-details">
+          <p>📍 VFW Post 67, 2784 Stockton Blvd</p>
+          <p>🕗 Wednesdays: Class @ 8PM | Social @ 9PM</p>
+          <p>🎟️ $10 Admission (includes both class & social)</p>
+          <a
+            href="https://www.eventbrite.com/o/social-67-110388883731"
+            class="btn"
+            >RSVP on Eventbrite</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form
+        action="mailto:info@social67sac.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+      <div class="social-actions">
+        <h3>Stay Connected</h3>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.meetup.com/sacramento-salsa-bachata-dancing/"
+              >Join Meetup</a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/socialsix7"
+              >Like us on Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/socialsix7"
+              >Follow on Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@social67">Subscribe on YouTube</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@social67_">Follow on TikTok</a>
+          </li>
+          <li>
+            <a href="https://mailchi.mp/2d2e5bd75481/5b2sdw9ph4"
+              >Get Email Updates</a
+            >
+          </li>
+          <li><a href="https://wa.me/1234567890">Join WhatsApp Group</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Social 67 &mdash; Established 2025</p>
+    </footer>
+  </body>
+</html>
